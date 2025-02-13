@@ -11,7 +11,7 @@ function Signup() {
 const Handler =(e)=>{
   SetFormData({...formsdata,[e.target.name]:e.target.value})
 }
-
+//
 const submitHandler = async(e)=>{
   e.preventDefault();
   try {
